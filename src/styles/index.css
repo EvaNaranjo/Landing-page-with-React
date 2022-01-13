@@ -10,3 +10,36 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    /*align-items: center;*/
+
+}
+.card{
+    display: inline-flex;
+    margin: 10px;
+    width: 20%;
+    text-align: center;
+}
+
+.card-img-top{
+    width: 18rem;
+}
+.card-body{
+    padding: 10px;
+    margin: 10px;
+}
+
+.card-bottom {
+    background-color: rgb(245, 238, 238);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.btn-primary{
+    margin:10px;
+}
+
