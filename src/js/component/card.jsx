@@ -4,12 +4,14 @@ import "../../styles/index.css";
 const Card = () => {
 	return (
 		<div className="card">
-			<img
-				src="..."
-				className="card-img-top"
-				className="img-fluid"
-				alt="..."
-			/>
+			<div className="image-card">
+				<img
+					src="..."
+					className="card-img-top"
+					className="img-fluid"
+					alt="..."
+				/>
+			</div>
 			<div className="card-body">
 				<h5 className="card-title">Card title</h5>
 				<p className="card-text">
