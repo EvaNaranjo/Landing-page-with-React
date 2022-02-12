@@ -54,3 +54,10 @@
 .btn-primary{
     margin:10px;
 }
+
+/* Body */
+body {
+    min-height: 1rem;
+    margin-bottom: 5rem;
+    clear: both;
+}
